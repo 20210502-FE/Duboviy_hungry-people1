@@ -1,0 +1,23 @@
+.pancakes__baner{
+    background-image: url(../../assets/images/pancakes.png);
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+    color: $white;
+}
+
+.point{
+    background-color: $gray;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    
+    &_white{
+    background-color: $white;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin: 0 25px;
+    }
+}

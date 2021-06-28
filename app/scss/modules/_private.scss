@@ -1,0 +1,29 @@
+.baner-private{
+    background-image: url(../../assets/images/private.png);
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+    color: $white;
+}
+
+.vertical-text{
+    min-height: 393px;
+    min-width: 80px;
+    background-color: $black;
+    font-family: $font-Dosis500;
+    font-size: 24px;
+    line-height: 12px;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    align-self: center;
+    padding-left: 30px;
+    &_r{
+        transform: rotate(180deg);
+        margin-right: -100px;
+    }    
+    &_l{
+        margin-left: -100px;
+    }
+}
+

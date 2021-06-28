@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.wrap-content{
+    margin: 0 80px;
+}
+
+.flex{
+    display: flex;
+    &__column{
+        flex-direction: column;
+    }
+    &__space-between{
+        justify-content: space-between;
+    }
+    &__center{
+        justify-content: center;
+    }
+    &__wrap{
+        flex-wrap: wrap;
+    }
+    &__justify-content-center{
+        justify-content: center;
+    }
+    &__align-items-center{
+        align-items: center;
+    }
+}
+
+.relative{
+position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.baner{
+    background-image: url();
+}
+
+.line{
+    background-color: $corn;
+    width: 62px;
+    height: 5px;
+    border-radius: 50px;
+    margin: 0 auto;
+
+}
+
+.content__text{
+    margin: auto;
+    padding-right: 40px;
+    width: 50%;
+    flex-basis: 50%;
+    text-align: center;
+    &__text_white{
+        color: $white;
+    }
+    &_right{
+        padding-left: 40px;
+    }
+}
+
+.subject{
+    font-family: $font-Dosis700;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    &_normal{
+        font-family: $font-Dosis300;
+    }
+}
+
+
+
+.bold-text{
+    font-family: $font-open-sans700;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+.margin-px{
+    margin-bottom: 24px;
+}
+
+.normal-text{
+    font-family: $font-open-sans400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.content__image-wrap{
+    max-width: 475px;
+    flex-basis: 475px;
+    padding-left: 40px;
+    margin-right: -40px;
+  
+}
+
+.content__image{
+        min-width: 475px;
+        height: 475px;
+        
+    }
+
+    .wrap50{
+        width: 50%;
+        flex-basis: 50%;
+    }
+
+    .content-image-margin100{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+.square-right{
+    width: 250px;
+    height: 250px;
+    border: 20px solid $corn;
+    right: -113px;
+    top: 109px;
+   
+}
+
+ .square-left{
+        width: 250px;
+        height: 250px;
+        border: 20px solid $corn;
+        top: 113px;
+        left: -51px;
+    }
+
+.text-top{
+    text-align: center;
+    padding: 50px 0;
+    font-family: $font-open-sans700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+
+
+

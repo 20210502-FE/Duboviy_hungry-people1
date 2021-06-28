@@ -1,0 +1,84 @@
+.menu__top-wrap{
+    margin: 100px auto 50px auto;
+    max-width: 565px;
+    text-align: center;
+}
+.menu-bottom{
+    width: 50%;
+    margin: 0 auto 50px auto;
+    &__list{
+        font-family: $font-open-sans700;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0 20px;
+    }
+    &__list_border{
+        border-left: 1px solid $mine-shaft;
+    }
+    &__link{
+        font-family: $font-open-sans700;
+        color: $mine-shaft;
+    }
+
+}
+
+.list-menu__item{
+    font-family: $font-Dosis500;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.list-menu__sub{
+    font-family: $font-open-sans400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $mine-shaft;
+    margin-bottom: 30px;
+}
+
+.form-menu{
+    &__textarea{
+    width: 92%;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: $mercury;
+    font-family: $font-open-sans400;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 5px;
+    resize: none;
+    }
+}
+
+.menu-form-wrap{
+    min-width: 92%;
+}
+
+.menu-form-wrap_l{
+    min-width: 50%;
+    flex-basis: 50%;
+}
+
+.menu-form-wrap_r{
+    min-width: 50%;
+    flex-basis: 50%;
+}
+
+.fa-map-marker-alt, .fa-phone, .fa-envelope{
+    margin: 0 5px;
+    color: $corn;
+}
+
+.copyright{
+    min-width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    font-family: $font-open-sans700;
+    font-size: 12px;
+    &__opasity{
+        color: $white-opasity;
+        font-family: $font-open-sans400;
+    }
+}

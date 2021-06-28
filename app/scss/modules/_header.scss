@@ -1,0 +1,95 @@
+.baner{
+    background-image: url(../../assets/images/header-bg.png);
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.top-nav{
+    padding: 41px 0;
+}
+
+
+
+.nav-wrap{
+    width: 50%;
+    flex-basis: 50%;
+}
+
+.nav-wrap_left{
+    padding-right: 80px;
+}
+
+.image-nav{
+    width: 80px;
+    margin-bottom: 150px;
+}
+
+.nav-wrap_right{
+    padding-left: 120px;
+}
+
+.item__text{
+    font-family: $font-open-sans700;
+    color: $white;
+}
+
+.wrap-header{
+    margin-bottom: 92px;
+}
+
+.calendar{
+    writing-mode: vertical-lr;
+    font-size: 12px;
+    color: $white;
+    transform: rotate(180deg);
+    font-family:$font-open-sans700;
+}
+
+.header-text{
+    color: $white;
+    margin: auto;
+    &__text{
+        font-size: 12px;
+        font-family:$font-open-sans700;
+        text-align: center;
+    }
+    &__title{
+        font-family: $font-Dosis700;
+        font-size: 96px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+    }&__wrap{
+    max-width: 440px;
+    margin: auto;
+    margin-top: 30px;
+    }
+}
+
+
+
+.social{
+    height: 200px;
+    align-self: flex-end;
+    &__icons{
+    color: $white;
+    font-size: 20px;
+    }
+}
+
+.drop{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    background-color: $white;
+    border-radius: 100%;
+    &__fas{
+    color: $mine-shaft;
+    font-size: 20px;
+   margin: 28%;
+    }
+}
+
+
+
