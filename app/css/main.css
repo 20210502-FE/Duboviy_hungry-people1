@@ -338,7 +338,7 @@ img {
 }
 
 .baner {
-  background-image: url(../../assets/images/header-bg.png);
+  background-image: url(../assets/images/header-bg.png);
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,7 +496,7 @@ img {
 }
 
 .chef {
-  background-image: url(../../assets/images/specialtys-bg.png);
+  background-image: url(../assets/images/specialtys-bg.png);
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -581,7 +581,7 @@ img {
 }
 
 .pancakes__baner {
-  background-image: url(../../assets/images/pancakes.png);
+  background-image: url(../assets/images/pancakes.png);
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -740,7 +740,7 @@ img {
 }
 
 .baner-private {
-  background-image: url(../../assets/images/private.png);
+  background-image: url(../assets/images/private.png);
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
