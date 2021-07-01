@@ -1,0 +1,55 @@
+.baner-private{
+    background-image: url(../assets/images/private.png);
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+    color: $white;
+    @include phone{
+        height: auto;
+    }
+}
+
+.vertical-text{
+    min-height: 393px;
+    min-width: 80px;
+    background-color: $black;
+    font-family: $font-Dosis500;
+    font-size: 24px;
+    line-height: 12px;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    align-self: center;
+    padding-left: 30px;
+    @include phone{
+        min-height: auto;
+        writing-mode: horizontal-tb;
+    }
+    &_r{
+        transform: rotate(180deg);
+        margin-right: -100px;
+        @include phone{
+            transform: rotate(0);
+            order: 1;
+            margin-right: 0;
+            padding-left: 0;
+            margin-bottom: 10px;
+        }
+    }    
+    &_l{
+        margin-left: -100px;
+    }
+}
+
+@include phone{
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        margin-top: 10px;
+        &__img{
+            margin: 10px 0;
+        }
+    }
+}
+

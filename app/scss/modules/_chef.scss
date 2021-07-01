@@ -1,0 +1,18 @@
+.chef{
+    background-image: url(../assets/images/specialtys-bg.png);
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+    color: $white;
+    @include phone{
+        height: 785px;
+    }
+}
+
+@include phone{
+    .cheaf__wrap{
+        flex-wrap: wrap;
+    }
+}
+
