@@ -2,10 +2,16 @@
     margin: 100px auto 50px auto;
     max-width: 565px;
     text-align: center;
+    @include phone{
+        margin: 30px auto;
+    }
 }
 .menu-bottom{
     width: 50%;
     margin: 0 auto 50px auto;
+    @include phone{
+        display: none;
+    }
     &__list{
         font-family: $font-open-sans700;
         font-size: 12px;
@@ -20,6 +26,12 @@
         color: $mine-shaft;
     }
 
+}
+
+@include phone{
+    .menu-list-wrap{
+        flex-wrap: wrap;
+    }
 }
 
 .list-menu__item{
@@ -52,16 +64,31 @@
 
 .menu-form-wrap{
     min-width: 92%;
+    @include phone{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
 }
 
 .menu-form-wrap_l{
     min-width: 50%;
     flex-basis: 50%;
+    @include phone{
+        min-width: 92%;
+        flex-basis: 92%;
+        margin: 10px 0;
+    }
 }
 
 .menu-form-wrap_r{
     min-width: 50%;
     flex-basis: 50%;
+    @include phone{
+        min-width: 92%;
+        flex-basis: 92%;
+        order: -1;
+    }
 }
 
 .fa-map-marker-alt, .fa-phone, .fa-envelope{

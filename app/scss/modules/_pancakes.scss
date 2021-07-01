@@ -5,6 +5,9 @@
     background-size: cover;
     height: 675px;
     color: $white;
+    @include phone{
+        height: auto;
+    }
 }
 
 .point{

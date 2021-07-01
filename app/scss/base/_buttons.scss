@@ -7,6 +7,11 @@
     font-size: 12px;
     font-family: $font-open-sans700;
     border-radius: 5px;
+    @include phone{
+        width: 160px;
+        padding: 25px 0;
+        margin-bottom: 10px;
+    }
      &:hover{
     border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 29px 0;

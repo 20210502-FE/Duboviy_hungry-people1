@@ -68,17 +68,34 @@ position: relative;
 
 }
 
+@include phone{
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .content__text{
     margin: auto;
     padding-right: 40px;
     width: 50%;
     flex-basis: 50%;
     text-align: center;
+    @include phone{
+        padding-right: 0;
+    }
     &__text_white{
         color: $white;
     }
     &_right{
         padding-left: 40px;
+        @include phone{
+            padding-left: 0;
+        }
+    }
+    @include phone{
+        width: 100%;
+        flex-basis: 100%;
     }
 }
 
@@ -116,18 +133,31 @@ position: relative;
     flex-basis: 475px;
     padding-left: 40px;
     margin-right: -40px;
-  
+    @include phone{
+        flex-direction: column;
+        position: static;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
 }
 
 .content__image{
         min-width: 475px;
         height: 475px;
-        
+       @include phone{
+           min-width: 100%;
+           height: auto;
+       } 
     }
 
     .wrap50{
         width: 50%;
         flex-basis: 50%;
+        @include phone{
+            width: 100%;
+            flex-basis: 100%;
+        }
     }
 
     .content-image-margin100{
@@ -141,7 +171,9 @@ position: relative;
     border: 20px solid $corn;
     right: -113px;
     top: 109px;
-   
+   @include phone{
+       display: none;
+   }
 }
 
  .square-left{
@@ -150,6 +182,9 @@ position: relative;
         border: 20px solid $corn;
         top: 113px;
         left: -51px;
+        @include phone{
+            display: none;
+        }
     }
 
 .text-top{
@@ -159,6 +194,18 @@ position: relative;
     font-size: 12px;
     line-height: 14px;
     text-transform: uppercase;
+    @include phone{
+        padding: 30px 0;
+        font-size: 26px;
+        line-height: 30px;
+    }
+}
+
+@include phone{
+    .content-bottom{
+        margin: 0 80px;
+        padding: 20px 0 20px 0;
+    }
 }
 
 

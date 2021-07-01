@@ -12,8 +12,14 @@
     font-size: 14px;
     line-height: 19px;
     padding: 0 5px;
+    @include phone{
+        min-width: 92%;
+    }
     &_30{
         min-width: 30%;
+        @include phone{
+            min-width: 92%;
+        }
     }
     }
     &__button{
@@ -31,6 +37,12 @@
     &_92{
         max-width: 92%;
         }
+    }
+}
+
+@include phone{
+    .wrap-book{
+        flex-wrap: wrap;
     }
 }
 
